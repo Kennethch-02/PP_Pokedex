@@ -1,0 +1,152 @@
+Numero-Nombre-Imagen-Tipo_Primario-Tipo_Secundario-Habilidad-Habilidad Oculta
+001-Bulbasaur-Bulbasaur-Tipo_planta.png-Tipo_veneno.png-Espesura-Clorofila
+002-Ivysaur-Ivysaur-Tipo_planta.png-Tipo_veneno.png-Espesura-Clorofila
+003-Venusaur-Venusaur-Tipo_planta.png-Tipo_veneno.png-Espesura-Clorofila
+004-Charmander-Charmander-Tipo_fuego.png- -Mar llamas-Poder Solar
+005-Charmeleon-Charmeleon-Tipo_fuego.png- -Mar llamas-Poder Solar
+006-Charizard-Charizard-Tipo_fuego.png-Tipo_volador.png-Mar llamas-Poder Solar
+007-Squirtle-Squirtle-Tipo_agua.png- -Torrente-Cura Lluvia
+008-Wartortle-Wartortle-Tipo_agua.png- -Torrente-Cura Lluvia
+009-Blastoise-Blastoise-Tipo_agua.png- -Torrente-Cura Lluvia
+010-Caterpie-Caterpie-Tipo_bicho.png- -Polvo Escudo-Fuga
+011-Metapod-Metapod-Tipo_bicho.png- -Mudar- 
+012-Butterfree-Butterfree-Tipo_bicho.png-Tipo_volador.png-Ojo Compuesto-Cromolente
+013-Weedle-Weedle-Tipo_bicho.png-Tipo_veneno.png-Polvo escudo-Fuga
+014-Kakuna-Kakuna-Tipo_bicho.png-Tipo_veneno.png-Mudar- 
+015-Beedrill-Beedrill-Tipo_bicho.png-Tipo_veneno.png-Enjambre-Francotirador
+016-Pidgey-Pidgey-Tipo_normal.png-Tipo_volador.png-Vista Indice_Tumbos-Sacapecho
+017-Pidgeotto-Pidgeotto-Tipo_normal.png-Tipo_volador.png-Vista Indice_Tumbos-Sacapecho
+018-Pidgeot-Pidgeot-Tipo_normal.png-Tipo_volador.png-Vista Indice_Tumbos-Sacapecho
+019-Rattata-Rattata-Tipo_normal.png- -Fuga_Agallas-Entusiasmo
+020-Raticate-Raticate-Tipo_normal.png- -Fuga_Agallas-Entusiasmo
+021-Spearow-Spearow-Tipo_normal.png-Tipo_volador.png-Vista indice-Francotirador
+022-Fearow-Fearow-Tipo_normal.png-Tipo_volador.png-Vista indice-Francotirador
+023-Ekans-Ekans-Tipo_veneno.png- -Intimidacion_Mudar-Nerviosismo
+024-Arbok-Arbok-Tipo_veneno.png- -Intimidacion_Mudar-Nerviosismo
+025-Pikachu-Pikachu-Tipo_eléctrico.png- -Electricidad Estática-Pararrayos
+026-Raichu-Raichu-Tipo_eléctrico.png- -Electricidad Estática-Pararrayos
+027-Sandshrew-Sandshrew-Tipo_tierra.png- -Velo arena-Ímpetu arena
+028-Sandslash-Sandslash-Tipo_tierra.png- -Velo arena-Ímpetu arena
+029-Nidoran♀-Nidoran♀-Tipo_veneno.png- -Punto tóxico_Rivalidad-Entusiasmo
+030-Nidorina-Nidorina-Tipo_veneno.png- -Punto tóxico_Rivalidad-Entusiasmo
+031-Nidoqueen-Nidoqueen-Tipo_veneno.png- -Punto tóxico_Rivalidad-Potencia bruta
+032-Nidoran♂-Nidoran♂-Tipo_veneno.png- -Punto tóxico_Rivalidad-Entusiasmo
+033-Nidorino-Nidorino-Tipo_veneno.png- -Punto tóxico_Rivalidad-Entusiasmo
+034-Nidoking-Nidoking-Tipo_veneno.png-Tipo_tierra.png-Punto tóxico_Rivalidad-Potencia Bruta
+035-Clefairy-Clefairy-Tipo_hada.png- -Gran encanto_Muro mágico-Compiescolta
+036-Clefable-Clefable-Tipo_hada.png- -Gran encanto_Muro mágico-Ignorante
+037-Vulpix-Vulpix-Tipo_fuego.png- -Absorve fuego-Sequía
+038-Ninetales-Ninetales-Tipo_fuego.png- -Absorve fuego-Sequía
+039-Jigglypuff-Jigglypuff-Tipo_normal.png-Tipo_hada.png-Gran encanto_Tenacidad-Compiescolta
+040-Wigglytuff-Wigglytuff-Tipo_normal.png-Tipo_hada.png-Gran encanto_Tenacidad-Cacheo
+041-Zubat-Zubat-Tipo_veneno.png-Tipo_volador.png-Foco interno-Allanamiento
+042-Golbat-Golbat-Tipo_veneno.png-Tipo_volador.png-Foco interno-Allanamiento
+043-Oddish-Oddish-Tipo_planta.png-Tipo_veneno.png-Clorofila-Fuga
+044-Gloom-Gloom-Tipo_planta.png-Tipo_veneno.png-Clorofila-Hedor
+045-Vileplume-Vileplume-Tipo_planta.png-Tipo_veneno.png-Clorofila-Efecto espora
+046-Paras-Paras-Tipo_bicho.png-Tipo_planta.png-Efecto espora_Piel seca-Humedad
+047-Parasect-Parasect-Tipo_bicho.png-Tipo_planta.png-Efecto espora_Piel seca-Humedad
+048-Venonat-Venonat-Tipo_bicho.png-Tipo_veneno.png-Ojocompuesto_Cromolente-Fuga
+049-Venomoth-Venomoth-Tipo_bicho.png-Tipo_veneno.png-Ojocompuesto_Cromolente-Piel milagro
+050-Diglett-Diglett-Tipo_tierra.png- -Velo arena_Trampa arena-Poder arena
+051-Dugtrio-Dugtrio-Tipo_tierra.png- -Velo arena_Trampa arena-Poder arena
+052-Meowth-Meowth-Tipo_normal.png- -Recogida_Experto-Nerviosismo
+053-Persian-Persian-Tipo_normal.png- -Flexividad_Experto-Nerviosismo
+054-Psyduck-Psyduck-Tipo_agua.png- -Humedad_Aclimatación-Nado rápido
+055-Golduck-Golduck-Tipo_agua.png- -Humedad_Aclimatación-Nado rápido
+056-Mankey-Mankey-Tipo_lucha.png- -Espíritu vital_Irascible-Competitivo
+057-Primeape-Primeape-Tipo_lucha.png- -Espíritu vital_Irascible-Competitivo
+058-Growlithe-Growlithe-Tipo_fuego.png- -Intimidación_Absorbe fuego-Justiciero
+059-Arcanine-Arcanine-Tipo_fuego.png- -Intimidación_Absorbe fuego-Justiciero
+060-Poliwag-Poliwag-Tipo_agua.png- -Absorbe agua_Humedad-Nado rápido
+061-Poliwhirl-Poliwhirl-Tipo_agua.png- -Absorbe agua_Humedad-Nado rápido
+062-Poliwrath-Poliwrath-Tipo_agua.png-Tipo_lucha.png-Absorbe agua_Humedad-Nado rápido
+063-Abra-Abra-Tipo_psíquico.png- -Sincronía_Foco interno-Muro mágico
+064-Kadabra-Kadabra-Tipo_psíquico.png- -Sincronía_Foco interno-Muro mágico
+065-Alakazam-Alakazam-Tipo_psíquico.png- -Sincronía_Foco interno-Muro mágico
+066-Machop-Machop-Tipo_lucha.png- -Agallas_Indefenso-Impasible
+067-Machoke-Machoke-Tipo_lucha.png- -Agallas_Indefenso-Impasible
+068-Machamp-Machamp-Tipo_lucha.png- -Agallas_Indefenso-Impasible
+069-Bellsprout-Bellsprout-Tipo_planta.png-Tipo_veneno.png-Clorofila-Gula
+070-Weepinbell-Weepinbell-Tipo_planta.png-Tipo_veneno.png-Clorofila-Gula
+071-Victreebel-Victreebel-Tipo_planta.png-Tipo_veneno.png-Clorofila-Gula
+072-Tentacool-Tentacool-Tipo_agua.png-Tipo_veneno.png-Cuerpo puro_Lodo líquido-Cura lluvia
+073-Tentacruel-Tentacruel-Tipo_agua.png-Tipo_veneno.png-Cuerpo puro_Lodo líquido-Cura lluvia
+074-Geodude-Geodude-Tipo_roca.png-Tipo_tierra.png-Cabeza roca_Robustez-Velo arena
+075-Graveler-Graveler-Tipo_roca.png-Tipo_tierra.png-Cabeza roca_Robustez-Velo arena
+076-Golem-Golem-Tipo_roca.png-Tipo_tierra.png-Cabeza roca_Robustez-Velo arena
+077-Ponyta-Ponyta-Tipo_fuego.png- -Fuga_Absorbe fuego-Cuerpo llama
+078-Rapidash-Rapidash-Tipo_fuego.png- -Fuga_Absorbe fuego-Cuerpo llama
+079-Slowpoke-Slowpoke-Tipo_agua.png-Tipo_psíquico.png-Despiste_Ritmo propio-Regeneración
+080-Slowbro-Slowbro-Tipo_agua.png-Tipo_psíquico.png-espiste_Ritmo propio-Regeneración
+081-Magnemite-Magnemite-Tipo_eléctrico.png-Tipo_acero.png-Imán_Robustez-Cálculo final
+082-Magneton-Magneton-Tipo_eléctrico.png-Tipo_acero.png-Imán_Robustez-Cálculo final
+083-Farfetch'd-Farfetch'd-Tipo_normal.png-Tipo_volador.png-Vista lince_Foco interno-Competitivo
+084-Doduo-Doduo-Tipo_normal.png-Tipo_volador.png-Fuga_Madrugar-Tumbos
+085-Dodrio-Dodrio-Tipo_normal.png-Tipo_volador.png-Fuga_Madrugar-Tumbos
+086-Seel-Seel-Tipo_agua.png- -Sebo_Hidratación-Gélido
+087-Dewgong-Dewgong-Tipo_agua.png-Tipo_hielo.png-Sebo_Hidratación-Gélido
+088-Grimer-Grimer-Tipo_veneno.png- -Hedor_Viscosidad-Toque tóxico
+089-Muk-Muk-Tipo_veneno.png- -Hedor_Viscosidad-Toque tóxico
+090-Shellder-Shellder-Tipo_agua.png- -Caparazón_Encadenado-Funda
+091-Cloyster-Cloyster-Tipo_agua.png-Tipo_hielo.png-Caparazón_Encadenado-Funda
+092-Gastly-Gastly-Tipo_fantasma.png-Tipo_veneno.png-Levitacion- 
+093-Haunter-Haunter-Tipo_fantasma.png-Tipo_veneno.png-Levitacion- 
+094-Gengar-Gengar-Tipo_fantasma.png-Tipo_veneno.png-Cuerpo maldito- 
+095-Onix-Onix-Tipo_roca.png-Tipo_tierra.png-Cabeza roca_Robustez-Armadura frágil
+096-Drowzee-Drowzee-Tipo_psíquico.png- -Insomnio_Alerta-Foco interno
+097-Hypno-Hypno-Tipo_psíquico.png- -Insomnio_Alerta-Foco interno
+098-Krabby-Krabby-Tipo_agua.png- -Corte fuerte_Caparazón-Potencia bruta
+099-Kingler-Kingler-Tipo_agua.png- -Corte fuerte_Caparazón-Potencia bruta
+100-Voltorb-Voltorb-Tipo_eléctrico.png- -Insonorizar_Electricidad estática-Resquicio
+101-Electrode-Electrode-Tipo_eléctrico.png- -Insonorizar_Electricidad estática-Resquicio
+102-Exeggcute-Exeggcute-Tipo_planta.png-Tipo_psíquico.png-Clorofila-Cosecha
+103-Exeggutor-Exeggutor-Tipo_planta.png-Tipo_psíquico.png-Clorofila-Cosecha
+104-Cubone-Cubone-Tipo_tierra.png- -Cabeza roca_Pararrayos-Armadura batalla
+105-Marowak-Marowak-Tipo_tierra.png- -Cabeza roca_Pararrayos-Armadura batalla
+106-Hitmonlee-Hitmonlee-Tipo_lucha.png- -Flexibilidad_Audaz-Liviano
+107-Hitmonchan-Hitmonchan-Tipo_lucha.png- -Vista lince_Puño férreo-Foco interno
+108-Lickitung-Lickitung-Tipo_normal.png- -Despiste_Ritmo propio-Aclimatación
+109-Koffing-Koffing-Tipo_veneno.png- -Levitación- 
+110-Weezing-Weezing-Tipo_veneno.png- -Levitación- 
+111-Rhyhorn-Rhyhorn-Tipo_tierra.png-Tipo_roca.png-Pararrayos_Cabeza roca-Audaz
+112-Rhydon-Rhydon-Tipo_tierra.png-Tipo_roca.png-Pararrayos_Cabeza roca-Audaz
+113-Chansey-Chansey-Tipo_normal.png- -Cura natural_Dicha-Alma cura
+114-Tangela-Tangela-Tipo_planta.png- -Clorofila_Defensa hoja-Regeneración
+115-Kangaskhan-Kangaskhan-Tipo_normal.png- -Madrugar_Intrépido-Foco interno
+116-Horsea-Horsea-Tipo_agua.png- -Nado rápido_Francotirador-Humedad
+117-Seadra-Seadra-Tipo_agua.png- -Punto tóxico_Francotirador-Humedad
+118-Goldeen-Goldeen-Tipo_agua.png- -Nado rápido_Velo agua-Pararrayos
+119-Seaking-Seaking-Tipo_agua.png- -Nado rápido_Velo agua-Pararrayos
+120-Staryu-Staryu-Tipo_agua.png- -Cura natural_Iluminación-Cálculo final
+121-Starmie-Starmie-Tipo_agua.png-Tipo_psíquico.png-Cura natural_Iluminación-Cálculo final
+122-Mr. Mime-Mr. Mime-Tipo_psíquico.png-Tipo_hada.png-Insonorizar_Filtro-Experto
+123-Scyther-Scyther-Tipo_bicho.png-Tipo_volador.png-Enjambre_Experto-Impasible
+124-Jynx-Jynx-Tipo_hielo.png-Tipo_psíquico.png-Despiste_Alerta-Piel seca
+125-Electabuzz-Electabuzz-Tipo_eléctrico.png- -Electricidad estática-Espíritu vital
+126-Magmar-Magmar-Tipo_fuego.png- -Cuerpo llama-Espíritu vital
+127-Pinsir-Pinsir-Tipo_bicho.png- -Corte fuerte_Rompemoldes-Autoestima
+128-Tauros-Tauros-Tipo_normal.png- -Intimidación_Irascible-Potencia bruta
+129-Magikarp-Magikarp-Tipo_agua.png- -Nado rápido-Cobardía
+130-Gyarados-Gyarados-Tipo_agua.png-Tipo_volador.png-Intimidación-Autoestima
+131-Lapras-Lapras-Tipo_agua.png-Tipo_hielo.png-Absorbe agua_Caparazón-Hidratación
+132-Ditto-Ditto-Tipo_normal.png- -Flexibilidad-Impostor
+133-Eevee-Eevee-Tipo_normal.png- -Fuga_Adaptable-Anticipación
+134-Vaporeon-Vaporeon-Tipo_agua.png- -Absorbe agua-Hidratación
+135-Jolteon-Jolteon-Tipo_eléctrico.png- -Absorve electricidad-Pies rápidos
+136-Flareon-Flareon-Tipo_fuego.png- -Absorbe fuego-Agallas
+137-Porygon-Porygon-Tipo_normal.png- -Rastro_Descarga-Cálculo final
+138-Omanyte-Omanyte-Tipo_roca.png-Tipo_agua.png-Nado rápido_Caparazón-Armadura frágil
+139-Omastar-Omastar-Tipo_roca.png-Tipo_agua.png-Nado rápido_Caparazón-Armadura frágil
+140-Kabuto-Kabuto-Tipo_roca.png-Tipo_agua.png-Armadura batalla_Nado rápido-Armadura frágil
+141-Kabutops-Kabutops-Tipo_roca.png-Tipo_agua.png-Armadura batalla_Nado rápido-Armadura frágil
+142-Aerodactyl-Aerodactyl-Tipo_roca.png-Tipo_volador.png-Cabeza roca_Presión-Nerviosismo
+143-Snorlax-Snorlax-Tipo_normal.png-Sebo_Inmunidad-Gula
+144-Articuno-Articuno-Tipo_hielo.png-Tipo_volador.png-Presión_Manto níveo
+145-Zapdos-Zapdos-Tipo_eléctrico.png-Tipo_volador.png-Presión-Pararrayos_Electricidad estática
+146-Moltres-Moltres-Tipo_fuego.png-Tipo_volador.png-Presión-Cuerpo llama
+147-Dratini-Dratini-Tipo_dragón.png- -Mudar-Escama especial
+148-Dragonair-Dragonair-Tipo_dragón.png-Mudar-Escama especial
+149-Dragonite-Dragonite-Tipo_dragón.png-Tipo_volador.png-Foco interno-Compensación
+150-Mewtwo-Mewtwo-Tipo_psíquico.png- -Presión-Nerviosismo
+151-Mew-Mew-Tipo_psíquico.png- -Sincronía- 

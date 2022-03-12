@@ -141,12 +141,12 @@ Numero-Nombre-Imagen-Tipo_Primario-Tipo_Secundario-Habilidad-Habilidad Oculta
 140-Kabuto-Kabuto-Tipo_roca.png-Tipo_agua.png-Armadura batalla_Nado rápido-Armadura frágil
 141-Kabutops-Kabutops-Tipo_roca.png-Tipo_agua.png-Armadura batalla_Nado rápido-Armadura frágil
 142-Aerodactyl-Aerodactyl-Tipo_roca.png-Tipo_volador.png-Cabeza roca_Presión-Nerviosismo
-143-Snorlax-Snorlax-Tipo_normal.png-Sebo_Inmunidad-Gula
-144-Articuno-Articuno-Tipo_hielo.png-Tipo_volador.png-Presión_Manto níveo
+143-Snorlax-Snorlax-Tipo_normal.png- -Sebo_Inmunidad-Gula
+144-Articuno-Articuno-Tipo_hielo.png-Tipo_volador.png-Presión-Manto níveo
 145-Zapdos-Zapdos-Tipo_eléctrico.png-Tipo_volador.png-Presión-Pararrayos_Electricidad estática
 146-Moltres-Moltres-Tipo_fuego.png-Tipo_volador.png-Presión-Cuerpo llama
 147-Dratini-Dratini-Tipo_dragón.png- -Mudar-Escama especial
-148-Dragonair-Dragonair-Tipo_dragón.png-Mudar-Escama especial
+148-Dragonair-Dragonair-Tipo_dragón.png- -Mudar-Escama especial
 149-Dragonite-Dragonite-Tipo_dragón.png-Tipo_volador.png-Foco interno-Compensación
 150-Mewtwo-Mewtwo-Tipo_psíquico.png- -Presión-Nerviosismo
 151-Mew-Mew-Tipo_psíquico.png- -Sincronía- 

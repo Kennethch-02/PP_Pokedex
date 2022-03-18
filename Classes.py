@@ -1,4 +1,7 @@
+from cgitb import text
 import pygame
+import pygame_menu
+
 #Clase Pokemon
 class Pokemon(pygame.sprite.Sprite):
     def __init__(self, numero, nombre,tipo1,tipo2,habilidad,habilidad_O):
@@ -90,14 +93,14 @@ class Boton(pygame.sprite.Sprite):
         self.rect = self.imageA.get_rect()
         self.rect.x = posx
         self.rect.y = posy
-        self.soido = pygame.mixer.Sound("sonidos_ambientales/Button.mp3")
+        self.sonido = pygame.mixer.Sound("sonidos_ambientales/Button.mp3")
         self.play = True
 
     def draw(self,screen,Mouse):
         if(Mouse.colliderect(self.rect)):
             screen.blit(self.imageB,(self.rect.x,self.rect.y))
             if(self.play):
-                pygame.mixer.Sound.play(self.soido)
+                self.sonido.play()
                 self.play = False
         else:   
             screen.blit(self.imageA,(self.rect.x,self.rect.y))
@@ -156,3 +159,82 @@ class TextInputBox(pygame.sprite.Sprite):
                 else:
                     self.text += event.unicode
         self.render_text()
+
+#Clase Menu o Ajustes
+class Menu(pygame.sprite.Sprite):
+    def __init__(self, x, y):
+        pygame.sprite.Sprite.__init__(self)
+        self.image = pygame.Surface((200,150),pygame.SRCALPHA)
+        self.rect = self.image.get_rect()
+        self.rect.x = x
+        self.rect.y = y
+        self.tipos = []
+        self.pos = 0
+        self.numero = ""
+
+        self.menuI = ""
+        self.cTipo = ""
+        self.aPokemon = ""
+        self.show = ""
+        self.part = "MenuI"
+
+        self.font = pygame.font.SysFont('arial', 15,True)
+
+    def do_menu(self,list_pokemons):
+        self.aPokemon = ""
+        if(self.menuI == ""):
+            self.menuI += "Agregar Pokemon" + "\n"
+            self.menuI += "Consultar Tipo" + "\n"
+            self.menuI = self.menuI.split("\n")
+        if(self.cTipo == ""):
+            self.tipos.append("Todos.")
+            for pokemon in list_pokemons:
+                tipo = pokemon.tipo_primario
+                tipo = tipo.replace("_"," ")
+                tipo = tipo.replace(".png",".")
+                self.tipos.append(tipo)
+
+                tipo = pokemon.tipo_secundario
+                tipo = tipo.replace("_"," ")
+                tipo = tipo.replace(".png",".")
+                self.tipos.append(tipo)
+
+            for tipo in self.tipos:
+                if(self.cTipo.find(tipo) == -1):
+                    self.cTipo += tipo + "\n"
+
+            self.cTipo = self.cTipo.split("\n")
+            self.tipos.clear()
+        
+        #Cargar los pokemons que se puden agregar
+        for pokemon in list_pokemons:
+            if(not pokemon.descubierto):
+                self.aPokemon += pokemon.numero +" "+ pokemon.nombre + "\n"
+        
+        self.aPokemon = self.aPokemon.split("\n")
+
+    def do_action(self):
+        pass
+    
+    def update(self, list_pokemons):
+        self.image.fill(pygame.SRCALPHA)
+        if(self.part == "MenuI"):
+            self.show = self.menuI
+        if(self.part == "cTipo"):
+            self.show= self.cTipo
+        if(self.part == "aPokemon"):
+            self.show = self.aPokemon
+        y = self.rect.height/5
+        posy = y/2
+
+        for line in range(self.pos,self.pos+9):
+            if(line<len(self.show)):
+                if(line==self.pos):
+                    self.image.blit(self.font.render(self.show[line],False,(0,0,0),(156,156,156)),(0, posy/2))
+                else:
+                    self.image.blit(self.font.render(self.show[line],False,(0,0,0)),(0, posy/2))
+                posy+=y
+        self.do_menu(list_pokemons)
+
+    def draw(self,screen):
+        screen.blit(self.image,(self.rect.x,self.rect.y))

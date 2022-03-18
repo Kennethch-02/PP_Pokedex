@@ -1,4 +1,3 @@
-from re import A
 from Classes import *
 
 #Init pygame
@@ -53,6 +52,7 @@ def LoadData():
         pokemon.posicion = pos
         pos+=1
     LoadInfo()
+#Funcion encargada de agregar nuevos pokemons descubiertos
 def addPokemon(numPokemon):
     archivo = open("pokedex.txt","r")
     text = archivo.read()
@@ -144,12 +144,13 @@ def GameWindow():
                         if(not isConsolaOn):
                             Intro = True
                             isSound = True
-                            sonido_fondo.play()
+                            sonido_fondo.play(0)
                         else:
                             sonido_fondo.stop()
 
                         isConsolaOn = not isConsolaOn
                         pygame.time.wait(100)
+                    #Accion del boton Right
                     if(boton.accion == "B_Right" and not Intro  and isConsolaOn):
                         if(Info):
                             posInfo = 1
@@ -158,7 +159,7 @@ def GameWindow():
                             if(posicion>len(sprite_pokemons)):
                                 posicion=1
                         pygame.time.wait(100)
-
+                    #Accion del boton Left
                     if(boton.accion == "B_Left" and not Intro  and isConsolaOn):
                         if(Info):
                             posInfo = 0
@@ -167,12 +168,14 @@ def GameWindow():
                             if(posicion<1):
                                 posicion=len(sprite_pokemons)
                         pygame.time.wait(100)
+                    #Accion del boton Up
                     if(boton.accion == "B_Up" and not Intro  and isConsolaOn):
                         if(Menu_):
                             menu.pos -= 1
                             if(menu.pos <0):
                                 menu.pos = 0
                         pygame.time.wait(100)
+                    #Accion del boton Down
                     if(boton.accion == "B_Down" and not Intro  and isConsolaOn):
                         if(Menu_):
                             menu.pos += 1
@@ -183,13 +186,16 @@ def GameWindow():
                             if(menu.part == "cTipo" and menu.pos>=len(menu.cTipo)-2):
                                 menu.pos = len(menu.cTipo)-2
                         pygame.time.wait(100)
+                    #Accion del boton para el rugido
                     if(boton.accion == "B_Rowr"):
                         if(isConsolaOn):
                             Rowr = True
+                    #Acciones del boton de informacion 
                     if(boton.accion == "B_Info"):
                         if(not Menu_):
                             Info = not Info
                         pygame.time.wait(100)
+                    #Acciones del boton de sonido
                     if(boton.accion == "B_Sound"):
                         if(isConsolaOn):
                             if(isSound):
@@ -199,6 +205,7 @@ def GameWindow():
                                 sonido_fondo.set_volume(100)
                                 isSound = True
                         pygame.time.wait(100)
+                    #Acciones del Boton Menu
                     if(boton.accion == "B_Menu"):
                         if(Menu_):
                             Info = False
@@ -207,6 +214,7 @@ def GameWindow():
                         else:
                             Menu_ = not Menu_
                         pygame.time.wait(100)
+                    #Acciones del boton Start
                     if(boton.accion == "B_Start"):
                         if(Menu_):
                             if(menu.part == "MenuI"):
@@ -215,6 +223,7 @@ def GameWindow():
                                 else:
                                     menu.part = "cTipo"
                                 menu.pos = 0
+                                posicion = 0
                             elif(menu.part == "aPokemon"):
                                 poke = menu.aPokemon[menu.pos]
                                 poke = poke.split(" ")
@@ -222,6 +231,7 @@ def GameWindow():
                                 Menu_ = not Menu_
                                 menu.part = "MenuI"
                                 menu.pos = 0
+                                posicion = 0
                             elif(menu.part == "cTipo"):
                                 filtro = menu.cTipo[menu.pos]
                                 if(filtro == "Todos."):
@@ -232,15 +242,19 @@ def GameWindow():
                                 Menu_ = not Menu_
                                 menu.part = "MenuI"
                                 menu.pos = 0
+                                posicion = 0
                         LoadData()
                         pygame.time.wait(100)
+        #Acciones cuando la consola esta encendida
         if(isConsolaOn):
             screen.blit(consolaOn, (0,0))
+            #Cuando esta en la seccion Intro
             if(Intro):
                 text = pygame.font.Font("Pokemon Solid.ttf", 45).render("PokeDex",False,(0,0,0))
                 screen.blit(text,(screen.get_rect().width/2-text.get_rect().width/2,120))
                 Wait = 1500
                 Intro = False
+            #Cuando esta en la seccion Info
             elif(Info):
                 Info_ = ""
                 if(posInfo == 0):
@@ -252,6 +266,7 @@ def GameWindow():
                 for line in Info_:
                     screen.blit(Font.render(line,False,(0,0,0)),(70,y))
                     y+=17
+            #Cuando esta en la seccion Menu
             elif(Menu_):
                 menu.draw(screen)
             else:
@@ -264,6 +279,7 @@ def GameWindow():
                             Rowr = False
                         else:
                             Rowr = False
+        #Accion cuando la consola esta apagada
         else:
             screen.blit(consolaOff, (0,0))
         #Dibujo de los botones

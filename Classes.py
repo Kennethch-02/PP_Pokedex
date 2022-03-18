@@ -1,6 +1,4 @@
-from cgitb import text
 import pygame
-import pygame_menu
 
 #Clase Pokemon
 class Pokemon(pygame.sprite.Sprite):
@@ -114,51 +112,6 @@ class Cursor(pygame.Rect):
     # Actualiza la posicion del mouse
     def update(self):
         self.left,self.top = pygame.mouse.get_pos()
-
-# Clase utilizada para contener un inputBox y 
-# permitir el ingreso de datos
-class TextInputBox(pygame.sprite.Sprite):
-    # Funcion constructura de la clase
-    def __init__(self, x, y, w, font):
-        pygame.sprite.Sprite.__init__(self)
-        self.color = (255, 255, 255)
-        self.backcolor = None
-        self.pos = (x, y) 
-        self.width = w
-        self.font = font
-        self.active = False
-        self.text = ""
-        self.render_text()
-
-    # Muestra o dibuja el cuadro de texto
-    def render_text(self):
-        t_surf = self.font.render(self.text, True, self.color, self.backcolor)
-        self.image = pygame.Surface((max(self.width, t_surf.get_width()+10), t_surf.get_height()+10), pygame.SRCALPHA)
-        if self.backcolor:
-            self.image.fill(self.backcolor)
-        self.image.blit(t_surf, (5, 5))
-        pygame.draw.rect(self.image, self.color, self.image.get_rect().inflate(-2, -2), 2)
-        self.rect = self.image.get_rect(topleft = self.pos)
-    
-    # Actualiza el texto del cuadro de texto, y su tamano
-    def update(self, event_list):
-        if self.active:
-            self.color = (0, 0, 0)
-        else:
-            self.color = (255, 255, 255)
-
-        for event in event_list:
-            if event.type == pygame.MOUSEBUTTONDOWN:
-                self.active = self.rect.collidepoint(event.pos)
-            
-            if event.type == pygame.KEYDOWN and self.active:
-                if event.key == pygame.K_RETURN:
-                    self.active = False
-                elif event.key == pygame.K_BACKSPACE:
-                    self.text = self.text[:-1]
-                else:
-                    self.text += event.unicode
-        self.render_text()
 
 #Clase Menu o Ajustes
 class Menu(pygame.sprite.Sprite):

@@ -223,7 +223,7 @@ def GameWindow():
                                 else:
                                     menu.part = "cTipo"
                                 menu.pos = 0
-                                posicion = 0
+                                posicion = 1
                             elif(menu.part == "aPokemon"):
                                 poke = menu.aPokemon[menu.pos]
                                 poke = poke.split(" ")
@@ -231,7 +231,7 @@ def GameWindow():
                                 Menu_ = not Menu_
                                 menu.part = "MenuI"
                                 menu.pos = 0
-                                posicion = 0
+                                posicion = 1
                             elif(menu.part == "cTipo"):
                                 filtro = menu.cTipo[menu.pos]
                                 if(filtro == "Todos."):
@@ -242,7 +242,7 @@ def GameWindow():
                                 Menu_ = not Menu_
                                 menu.part = "MenuI"
                                 menu.pos = 0
-                                posicion = 0
+                                posicion = 1
                         LoadData()
                         pygame.time.wait(100)
         #Acciones cuando la consola esta encendida
